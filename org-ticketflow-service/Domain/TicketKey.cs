@@ -1,4 +1,4 @@
-public record Key(string Value)
+public record TicketKey(string Value)
 {
     public override string ToString() => Value;
 }

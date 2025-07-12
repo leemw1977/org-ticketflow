@@ -5,30 +5,30 @@ using System.Collections.Generic;
 public class Ticket
 {
     public TicketSource Source { get; }
-    public Key Id { get; }
+    public TicketKey Id { get; }
     public OrgTodoState OrgState { get; }
     public string Summary { get; }
     public List<string> Labels { get; } = new();
     public Assignee AssignedTo { get; }
     public Reporter Reporter { get; }
-    public Type Type { get; }
+    public TicketType Type { get; }
     public Priority Priority { get; }
-    public Status JiraStatus { get; }
+    public TicketStatus JiraStatus { get; }
     public DateOnly? Scheduled { get; }
     public DateOnly? Deadline { get; }
     public Uri JiraUrl { get; }
     public string Description { get; }
 
     public Ticket(
-        Key id,
+        TicketKey id,
         OrgTodoState orgState,
         string summary,
         IEnumerable<string> labels,
         Assignee assignedTo,
         Reporter reporter,
-        Type type,
+        TicketType type,
         Priority priority,
-        Status jiraStatus,
+        TicketStatus jiraStatus,
         DateOnly? scheduled,
         DateOnly? deadline,
         Uri jiraUrl,
@@ -38,15 +38,15 @@ public class Ticket
     }
 
     public Ticket(TicketSource source
-        , Key id
+        , TicketKey id
         , OrgTodoState orgState
         , string summary
         , IEnumerable<string> labels
         , Assignee assignedTo
         , Reporter reporter
-        , Type type
+        , TicketType type
         , Priority priority
-        , Status jiraStatus
+        , TicketStatus jiraStatus
         , DateOnly? scheduled
         , DateOnly? deadline
         , Uri jiraUrl
