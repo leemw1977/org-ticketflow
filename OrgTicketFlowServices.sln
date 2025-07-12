@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "cli", "cli", "{DB7B6509-19D7-494A-BB83-D7E4AD0C69B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrgTicketFlowCLI", "cli\OrgTicketFlowCLI.csproj", "{D2FB3377-9544-40DB-8A86-64C94A267A80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "org-ticketflow-service", "org-ticketflow-service\org-ticketflow-service.csproj", "{992F2353-904F-47BF-A80C-EAA1AF0FD06E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2FB3377-9544-40DB-8A86-64C94A267A80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2FB3377-9544-40DB-8A86-64C94A267A80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2FB3377-9544-40DB-8A86-64C94A267A80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2FB3377-9544-40DB-8A86-64C94A267A80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{992F2353-904F-47BF-A80C-EAA1AF0FD06E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{992F2353-904F-47BF-A80C-EAA1AF0FD06E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{992F2353-904F-47BF-A80C-EAA1AF0FD06E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{992F2353-904F-47BF-A80C-EAA1AF0FD06E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D2FB3377-9544-40DB-8A86-64C94A267A80} = {DB7B6509-19D7-494A-BB83-D7E4AD0C69B8}
+	EndGlobalSection
+EndGlobal
