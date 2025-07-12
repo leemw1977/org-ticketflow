@@ -1,8 +1,8 @@
 # .NET build results
 cli/bin/
 cli/obj/
-bin /
-obj /
+bin/
+obj/
 *.pdb
 
 
